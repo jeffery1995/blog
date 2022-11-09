@@ -37,6 +37,9 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 12
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -71,6 +74,8 @@ params:
               url: posts
             - name: Tags
               url: tags
+            - name: Categories
+              url: categories
 
 
     socialIcons:
