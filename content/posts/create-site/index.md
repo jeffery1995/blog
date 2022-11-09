@@ -147,6 +147,9 @@ Netlify的部署流程还是很智能和简便的，这里就不详细说明了�
 
 现在开始你的创作吧！
 
+本项目的github仓库
+
+https://github.com/jeffery1995/blog
 
 
 

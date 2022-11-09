@@ -81,12 +81,14 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/jeffery1995"
+        - name: email
+          url: "jefferyjiang0129@gmail.com"
         - name: Rss
           url: "index.xml"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
+        URL: "https://github.com/jeffery1995/blog/tree/master/content/posts"
+        Text: "有错误？ 提出修改意见" # edit text
         appendFilePath: true # to append file path to Edit link
 
     label:
