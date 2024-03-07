@@ -11,114 +11,111 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 
-
 minify:
-    disableXML: true
-    
+  disableXML: true
+
 languages:
-    en:
-        languageName: "en"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
-        menu:
-            main:
-                - name: Posts
-                  url: posts
-                  weight: 1
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 12
+  en:
+    languageName: "en"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 12
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Jeffery Jiang a front-end engineer"
-    author: Jeffery Jiang
-    # author: ["Me", "You"] # multiple authors
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Jeffery Jiang a front-end engineer"
+  author: Jeffery Jiang
+  # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: false
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    # comments: false
-    images: ["/img/avator.png"]
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: false
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  # comments: false
+  images: ["/img/avator.png"]
 
-    profileMode:
-        enabled: true
-        title: >
-           Hello, I am a front-end engineer, learning blockchain and rust
-        imageUrl: "/img/favicon.jpeg"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
-            - name: Categories
-              url: categories
+  profileMode:
+    enabled: true
+    title: >
+      Hello, I am a front-end engineer, focusing on Finance and Crypto
+    imageUrl: "/img/favicon.jpeg"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+      - name: Categories
+        url: categories
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/jeffery1995"
+    - name: email
+      url: "jefferyjiang0129@gmail.com"
+    - name: Rss
+      url: "index.xml"
+
+  editPost:
+    URL: "https://github.com/jeffery1995/blog/tree/master/content/posts"
+    Text: "有错误？ 提出修改意见" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  label:
+    text: "Home"
+    # icon: /img/avator.png
+    iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: true
+    favicon: "/img/avator.png"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  cover:
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/jeffery1995"
-        - name: email
-          url: "jefferyjiang0129@gmail.com"
-        - name: Rss
-          url: "index.xml"
-
-    editPost:
-        URL: "https://github.com/jeffery1995/blog/tree/master/content/posts"
-        Text: "有错误？ 提出修改意见" # edit text
-        appendFilePath: true # to append file path to Edit link
-
-    label:
-        text: "Home"
-        # icon: /img/avator.png
-        iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    assets:
-        disableHLJS: true
-        favicon: "/img/avator.png"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    cover:
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
-
-   
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
