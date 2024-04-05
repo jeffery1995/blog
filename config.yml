@@ -63,7 +63,7 @@ params:
   profileMode:
     enabled: true
     title: >
-      Hello, I am a front-end engineer, focusing on Finance and Crypto
+      Writing random things.
     imageUrl: "/img/favicon.jpeg"
     imageTitle: my image
     # imageWidth: 120
