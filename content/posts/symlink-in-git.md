@@ -2,7 +2,7 @@
 title: "Symlink in git"
 author: "Jeffery Jiang"
 tags: ["git"]
-date: "2022-11-09"
+date: "2023-11-09"
 ---
 
 ## What is symlink
